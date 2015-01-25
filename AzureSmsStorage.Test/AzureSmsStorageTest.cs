@@ -8,7 +8,7 @@ namespace AzureSmsStorage.Test
     public class AzureSmsStorageTest
     {
         [TestMethod]
-        public void ShouldBeAbleToCreateStorageIfNotExist()
+        public void AzureSmsStorage_WhenStorageDoesNotExist_ShouldCreateStorage()
         {
             // Arrange
             var connectionString = CloudConfigurationManager.GetSetting("StorageConnectionString");
@@ -32,7 +32,7 @@ namespace AzureSmsStorage.Test
         }
 
         [TestMethod]
-        public void ShouldBeAbleToUseExistingStorageIfExist()
+        public void AzureSmsStorage_WhenStorageDoesExist_ShouldUseExistingStorage()
         {
             // Arrange
             var connectionString = CloudConfigurationManager.GetSetting("StorageConnectionString");
@@ -59,7 +59,7 @@ namespace AzureSmsStorage.Test
         }
 
         [TestMethod]
-        public void ShouldBeAbleToInsertAndReadNewRecords()
+        public void AzureSmsStorage_WithValidRecords_ShouldBeAbleToInsertAndRead()
         {
             // Arrange
             var connectionString = CloudConfigurationManager.GetSetting("StorageConnectionString");
@@ -89,7 +89,7 @@ namespace AzureSmsStorage.Test
         }
 
         [TestMethod]
-        public void ShouldBeAbleToInsertAndQueueNewRecords()
+        public void AzureSmsStorage_WithValidRecords_ShouldBeAbleToInsertAndQueue()
         {
             // Arrange
             var connectionString = CloudConfigurationManager.GetSetting("StorageConnectionString");
@@ -124,7 +124,7 @@ namespace AzureSmsStorage.Test
         }
 
         [TestMethod]
-        public void ShouldBeAbleToQueueAndDequeueNewRecords()
+        public void AzureSmsStorage_WithValidRecords_ShouldBeAbleToQueueAndDequeue()
         {
             // Arrange
             var connectionString = CloudConfigurationManager.GetSetting("StorageConnectionString");
