@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSmsStorage", "AzureSmsStorage\AzureSmsStorage.csproj", "{E28A00E3-E527-4CBD-BC2C-52056879A680}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D188C613-EC6D-4F1F-8CB3-5A68B6424362}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSmsStorage.Test", "AzureSmsStorage.Test\AzureSmsStorage.Test.csproj", "{3559F3FB-F02B-45BC-AEB3-ABA656B933B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xiiiCommonModels", "xiiiCommonModels\xiiiCommonModels.csproj", "{CB2DAA27-1DA0-4754-84F2-4E39A66CA477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xiiiCommonDals", "xiiiCommonDals\xiiiCommonDals.csproj", "{7A0242E7-FBB1-4720-898A-B7922467A930}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E28A00E3-E527-4CBD-BC2C-52056879A680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E28A00E3-E527-4CBD-BC2C-52056879A680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E28A00E3-E527-4CBD-BC2C-52056879A680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E28A00E3-E527-4CBD-BC2C-52056879A680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3559F3FB-F02B-45BC-AEB3-ABA656B933B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3559F3FB-F02B-45BC-AEB3-ABA656B933B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3559F3FB-F02B-45BC-AEB3-ABA656B933B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3559F3FB-F02B-45BC-AEB3-ABA656B933B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB2DAA27-1DA0-4754-84F2-4E39A66CA477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB2DAA27-1DA0-4754-84F2-4E39A66CA477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB2DAA27-1DA0-4754-84F2-4E39A66CA477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB2DAA27-1DA0-4754-84F2-4E39A66CA477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0242E7-FBB1-4720-898A-B7922467A930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0242E7-FBB1-4720-898A-B7922467A930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0242E7-FBB1-4720-898A-B7922467A930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0242E7-FBB1-4720-898A-B7922467A930}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
